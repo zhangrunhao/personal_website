@@ -1,5 +1,5 @@
 <template>
-  <div>这是顶部导航栏</div>
+  <div :class="$style.topNav">这是顶部导航栏</div>
 </template>
 
 <script>
@@ -7,3 +7,13 @@ export default {
   name: 'top-nav'
 }
 </script>
+
+<style lang="stylus" module>
+@import '../../style/index.stylus';
+.topNav
+  width rem(100)
+  height rem(100)
+  background-color red
+</style>
+
+
