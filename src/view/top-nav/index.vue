@@ -9,7 +9,6 @@ export default {
 </script>
 
 <style lang="stylus" module>
-@import '../../style/index.stylus';
 .topNav
   width rem(100)
   height rem(100)
