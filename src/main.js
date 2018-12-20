@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router/index'
-import './lib/style'
+
 Vue.config.productionTip = false
+import './lib/autoSize'
 
 new Vue({
   router,
